@@ -1,44 +1,81 @@
-*{padding:15px;
-    margin: 10px;
-    padding: 5px;
+*{
+    padding-left:40px;
+    padding-right:40px;
 }
 h1{
-    color:blue;
-    background-color:crimson;
-    font-family: inherit;
-    font-size: 30px;
+    color:hsl(211, 43%, 21%);
+    font-family:sans-serif;
+    font-size: 5rem;
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
-p{font-family: sans-serif;
-    font-weight: 600;
+h2{
+    color:hsl(211, 39%, 78%);
+    font-family: sans-serif;
+    font-size: 4rem;
+    padding-top: 0;
+    margin-top: 0px;
+}
+h3{
+    color:hsl(211, 46%, 61%);
+    font-family: sans-serif;
+    font-size:3rem;
+}
+h4{
+    color:hsl(211, 46%, 61%);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+p{
+    font-family: sans-serif;
     font-size: 20px;
+    font-weight: 100;
 }
 
-.bob{
-    font-weight: 600;
-    color:turquoise;
+nav{
+    background-color:hsl(211, 46%, 52%);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left:0;
 }
 
-#feature{
-    color:brown;
+a{
+    color:hsl(53, 47%, 96%);
+    font-family:sans-serif;
+    font-size:2rem;
+}
+ul{
+    padding-left:45px;
+}
+
+li{
+    font-size:1rem;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: sans-serif;
     
-    background-color: aqua;
-    
+}
+main{
+    padding-left: 0;
+}
+header{
+    background-color: hsl(211, 43%, 21%);
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 500;
+}
+#div_1{
+    margin-top: 15px;
+    background-image: url("/img/354.jpeg");
+    background-size:100%;
+
+    padding-bottom: 40px;
+    padding-top: 3px;
+    padding-left: 0px;
 }
 
-.box-model{
-    border:solid 10px red;
-    width:80%;
-    overflow: scroll;
-    margin:50px;
-    padding:50px;
-    height: 500px;
-}
 
-.border-box{
-    box-sizing: border-box;
-}
 
-.inline{
-    display: inline;
-    color: aquamarine
-}
+
+
